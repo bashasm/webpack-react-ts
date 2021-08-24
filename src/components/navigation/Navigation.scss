@@ -1,0 +1,58 @@
+.page-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  padding-top: 20px;
+  width: var(--page-header-width);
+  color: var(--page-header-txtColor);
+  background: var(--page-header-bgColor);
+}
+
+.page-header nav {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.page-header .menu {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-top: 35px;
+}
+
+.page-header .menu li > * {
+  width: 100%;
+  padding: 12px 15px;
+}
+
+.page-header .menu .switcher {
+  display: inline-block;
+  width: auto;
+}
+
+.page-header .menu a,
+.page-header .menu button {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.page-header .menu a:hover,
+.page-header .menu a:focus,
+.page-header .menu button:hover,
+.page-header .menu button:focus {
+  background: var(--page-header-bgColor-hover);
+  color: var(--blue);
+  outline: none;
+}
+
+.page-header .menu a:hover svg,
+.page-header .menu a:focus svg,
+.page-header .menu button:hover svg,
+.page-header .menu button:focus svg {
+  fill: var(--blue);
+}

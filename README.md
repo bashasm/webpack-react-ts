@@ -1,2 +1,2 @@
-# webpack-react-ts
-webpack-react-ts
+# webpack-react-poc
+webpack react poc

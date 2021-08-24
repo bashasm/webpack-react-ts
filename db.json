@@ -1,0 +1,189 @@
+{
+  "dashboard-cards": [
+    {
+      "metadataKey": "evDepotsDashboard",
+      "id": "test1",
+      "title": "EV depots",
+      "order": 1,
+      "size": "large",
+      "configuration": {}
+    },
+    {
+      "metadataKey": "utilizationAlertsDashboard",
+      "id": "test2",
+      "title": "Utilization alerts",
+      "order": 2,
+      "size": "medium",
+      "configuration": {}
+    },
+    {
+      "metadataKey": "evDepotsDashboard",
+      "id": "test3",
+      "title": "EV depots",
+      "order": 3,
+      "size": "large",
+      "configuration": {}
+    },
+    {
+      "metadataKey": "maxUtilizationAlertsDashboard",
+      "id": "test4",
+      "title": "Max utilization alerts",
+      "order": 4,
+      "size": "medium",
+      "configuration": {}
+    }
+  ],
+  "evDepot": {
+    "isPrevious": true,
+    "updatedTime": "2021-08-17T02:31:37Z",
+    "totalkWhCharged": 300,
+    "evsCharged": 10,
+    "avgkWhPerEV": 30,
+    "utilization": [
+      {
+        "ev": 80,
+        "unused": 20,
+        "title": "evDepot"
+      },
+      {
+        "ev": 70,
+        "nonEV": 20,
+        "unused": 20,
+        "title": "transformer"
+      },
+      {
+        "ev": 1,
+        "nonEV": 67,
+        "unused": 32,
+        "title": "feeder"
+      }
+    ]
+  },
+  "utilizationAlerts": {
+    "updatedTime": "2021-08-17T09:05:27Z",
+    "highAlerts": 135,
+    "criticalAlerts": 66,
+    "chartData": [
+      {
+        "date": "2021-08-16T15:35:27+05:30",
+        "high": 7,
+        "critical": 3
+      },
+      {
+        "date": "2021-08-16T16:35:27+05:30",
+        "high": 9,
+        "critical": 1
+      },
+      {
+        "date": "2021-08-16T17:35:27+05:30",
+        "high": 4,
+        "critical": 5
+      },
+      {
+        "date": "2021-08-16T18:35:27+05:30",
+        "high": 12,
+        "critical": 4
+      },
+      {
+        "date": "2021-08-16T19:35:27+05:30",
+        "high": 2,
+        "critical": 2
+      },
+      {
+        "date": "2021-08-16T20:35:27+05:30",
+        "high": 1,
+        "critical": 1
+      },
+      {
+        "date": "2021-08-16T21:35:27+05:30",
+        "high": 6,
+        "critical": 0
+      },
+      {
+        "date": "2021-08-16T22:35:27+05:30",
+        "high": 5,
+        "critical": 0
+      },
+      {
+        "date": "2021-08-16T23:35:27+05:30",
+        "high": 4,
+        "critical": 7
+      },
+      {
+        "date": "2021-08-17T00:35:27+05:30",
+        "high": 8,
+        "critical": 5
+      },
+      {
+        "date": "2021-08-17T01:35:27+05:30",
+        "high": 0,
+        "critical": 3
+      },
+      {
+        "date": "2021-08-17T02:35:27+05:30",
+        "high": 13,
+        "critical": 5
+      },
+      {
+        "date": "2021-08-17T03:35:27+05:30",
+        "high": 0,
+        "critical": 1
+      },
+      {
+        "date": "2021-08-17T04:35:27+05:30",
+        "high": 11,
+        "critical": 5
+      },
+      {
+        "date": "2021-08-17T05:35:27+05:30",
+        "high": 4,
+        "critical": 2
+      },
+      {
+        "date": "2021-08-17T06:35:27+05:30",
+        "high": 2,
+        "critical": 0
+      },
+      {
+        "date": "2021-08-17T07:35:27+05:30",
+        "high": 5,
+        "critical": 0
+      },
+      {
+        "date": "2021-08-17T08:35:27+05:30",
+        "high": 2,
+        "critical": 3
+      },
+      {
+        "date": "2021-08-17T09:35:27+05:30",
+        "high": 7,
+        "critical": 4
+      },
+      {
+        "date": "2021-08-17T10:35:27+05:30",
+        "high": 8,
+        "critical": 4
+      },
+      {
+        "date": "2021-08-17T11:35:27+05:30",
+        "high": 4,
+        "critical": 5
+      },
+      {
+        "date": "2021-08-17T12:35:27+05:30",
+        "high": 5,
+        "critical": 0
+      },
+      {
+        "date": "2021-08-17T13:35:27+05:30",
+        "high": 9,
+        "critical": 4
+      },
+      {
+        "date": "2021-08-17T14:35:27+05:30",
+        "high": 7,
+        "critical": 2
+      }
+    ]
+  }
+}
